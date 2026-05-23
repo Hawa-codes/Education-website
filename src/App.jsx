@@ -9,22 +9,22 @@ import laptop3 from './assets/Laptop3.png'
 
 function App() {
 
-  const card = {
-    card1: {
+  const cards = [
+  {
       image: laptop1,
       text: "General English",
     },
-    card2: {
+    {
       image: laptop2,
       text: "Classic English",
     },
-    card3: {
+   {
       image: laptop3,
       text: "Business English",
     }
-  }
+  ]
 
-  const cards = Object.values(card);
+  // const cards = Object.values(card);
 
   return (
     <>
